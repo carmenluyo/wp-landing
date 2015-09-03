@@ -1,0 +1,291 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; 
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+/* tIPOGRAFIA*/
+
+@font-face {
+    font-family: 'ThirstyRoughRegTwo';
+    src: url('../fonts/yellow_design_studio_-_thirstyroughregtwo-webfont.eot');
+    src: url('../fonts/yellow_design_studio_-_thirstyroughregtwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yellow_design_studio_-_thirstyroughregtwo-webfont.woff2') format('woff2'),
+         url('../fonts/yellow_design_studio_-_thirstyroughregtwo-webfont.woff') format('woff'),
+         url('../fonts/yellow_design_studio_-_thirstyroughregtwo-webfont.ttf') format('truetype'),
+         url('../fonts/yellow_design_studio_-_thirstyroughregtwo-webfont.svg#thirsty_roughregular_two') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'veneer_tworegular';
+    src: url('../fonts/yellow_design_studio_-_veneertwo-webfont.eot');
+    src: url('../fonts/yellow_design_studio_-_veneertwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yellow_design_studio_-_veneertwo-webfont.woff2') format('woff2'),
+         url('../fonts/yellow_design_studio_-_veneertwo-webfont.woff') format('woff'),
+         url('../fonts/yellow_design_studio_-_veneertwo-webfont.ttf') format('truetype'),
+         url('../fonts/yellow_design_studio_-_veneertwo-webfont.svg#veneer_tworegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Utilities*/
+
+.margin-right-none {
+    margin-right: 0px !important;
+}
+
+.margin-none{
+    margin: 0px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
+/* FONDO */
+
+.bg {
+    background-image: url('../img/bg-1.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.navbar-nav {
+    margin-top: 12px;
+    text-align: center;
+    float: none;
+    li{
+        float: none;
+        display: inline-block;
+        font-family: 'veneer_tworegular';
+        font-size: 23px;
+        a{
+            color: white !important;
+            &:hover {
+
+                color:white;
+            }
+        } 
+    }
+    
+}
+
+/* Social Media*/
+
+.container-menu {
+    position: absolute;
+    right: 3em;
+    top: 0;
+    .menu {
+    text-align: center;
+
+        nav{
+            a{
+                text-decoration: none;
+                padding: 0 5px;
+            }
+        }
+
+        h4{
+            color: #C1A98C;
+            font-family: 'ThirstyRoughRegTwo';
+            font-size: 20px;
+        }
+
+        .SocialMedia{
+        text-align: right;
+            & i {
+            background-color: white;
+            color: black;
+            width: 35px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 50%;
+            margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+.banner{
+    margin-top: 8%;
+
+}
+/* Text Right */
+
+.color-white {
+    color: white;
+    font: 400 45px / 56px ThirstyRoughRegTwo;
+    font-family:'veneer_tworegular';
+    line-height: 1;
+}
+.color-cream {
+    color: #c1a98c;
+    font: 400 45px / 43px ThirstyRoughRegTwo;
+    font-family: 'ThirstyRoughRegTwo';
+
+}
+.subscribe-email {
+    height: 45px;
+    margin-top: 25px;
+    width: 65.7%;
+    background-color: white;
+}
+.text-number-white {
+    color: #ffffff;
+    font: 400 60.2px / 36px VeneerTwo;
+    margin-top: 5px;
+    font-family: 'veneer_tworegular';
+
+}
+.text-right-white-small {
+    color: #ffffff;
+    font: 400 20.2px / 36px VeneerTwo;
+    font-family: 'ThirstyRoughRegTwo';
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+/* text center*/
+
+.top {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*suscibete */
+
+.email {
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'ThirstyRoughRegTwo';
+}
+.button {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 0 0 0 -43px;
+    width: 30px;
+    line-height: 33px;
+    cursor: pointer;
+}
+.fa-arrow-right {
+    font-size: 10px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 6px;
+    color: white;
+}
+
+#mc_embed_signup {
+    margin-top: 20px;
+}
+
+input {
+    width: 65%;
+}
+
+input.email {
+    color: #c1a98c;
+    -webkit-text-fill-color: #c1a98c;
+    padding-right: 45px;
+    padding-left: 10px;
+}
+
+/*text left */
+
+.text-top {
+    color: white;
+    position: absolute;
+    margin-top: -1.6em;
+    font-size: 35px;
+    font-family: 'ThirstyRoughRegTwo';
+    font-weight: 100;
+}
+
+.text-cream-small {
+    font: 400 20.2px / 36px VeneerTwo;
+    font-family: 'ThirstyRoughRegTwo';
+    margin-top: 10px;
+    color: #c1a98c;
+    font-size: 20px;
+}
+
+
+/* FECHAS */
+
+.fechas {
+    width: 100%;
+    display: block;
+    margin-top: 1em;
+}
+.fechas__content {
+    width: 46%;
+    float: left;
+    padding:0 1em;
+}
+.fecha_one {
+    text-align: right;
+}
+.fecha_two {
+    text-align: left;
+}
+.fechas__content div{
+    display: inline-block;
+}
+.color-white{
+    span {
+    display: block;
+    }
+} 
+    
+/* SVG Logo */
+
+.img-svg {
+ display: none;
+}
+
+html.svg {
+ .img-no-svg {
+  display: none;
+ }
+ 
+ .img-svg {
+  display: block;
+ }
+}
