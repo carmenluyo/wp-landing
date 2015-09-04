@@ -100,7 +100,7 @@
     position: fixed;
     width: 100%;
     z-index: 10000;
-        -webkit-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
@@ -139,12 +139,6 @@
                 text-decoration: none;
                 padding: 0 5px;
             }
-        }
-
-        h4{
-            color: #C1A98C;
-            font-family: 'ThirstyRoughRegTwo';
-            font-size: 20px;
         }
 
         .SocialMedia{
@@ -392,4 +386,15 @@ html.svg {
 .navegacion{
   background-color: rgba(0, 0, 0, 0.79);
   z-index: 10000000000;
+}
+.frase{
+  h4{
+    color: #C1A98C;
+    font-family: 'ThirstyRoughRegTwo';
+    font-size: 20px;
+    padding-top: 6px;
+    margin: 0px;
+    top: 0px;
+    text-align: right;
+  }
 }

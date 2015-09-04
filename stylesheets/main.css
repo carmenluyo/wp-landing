@@ -5622,10 +5622,6 @@ button.close {
     .container-menu .menu nav a {
       text-decoration: none;
       padding: 0 5px; }
-    .container-menu .menu h4 {
-      color: #C1A98C;
-      font-family: 'ThirstyRoughRegTwo';
-      font-size: 20px; }
     .container-menu .menu .SocialMedia {
       text-align: right; }
       .container-menu .menu .SocialMedia i {
@@ -5832,5 +5828,14 @@ html.svg .img-svg {
 .navegacion {
   background-color: rgba(0, 0, 0, 0.79);
   z-index: 10000000000; }
+
+.frase h4 {
+  color: #C1A98C;
+  font-family: 'ThirstyRoughRegTwo';
+  font-size: 20px;
+  padding-top: 6px;
+  margin: 0px;
+  top: 0px;
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
