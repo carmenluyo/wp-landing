@@ -5641,7 +5641,7 @@ button.close {
           transition: all 0.7s; }
 
 .banner {
-  padding-top: 8%;
+  padding-top: 5%;
   height: 100%; }
 
 /* Text Right */
@@ -5829,13 +5829,16 @@ html.svg .img-svg {
   background-color: rgba(0, 0, 0, 0.79);
   z-index: 10000000000; }
 
-.frase h4 {
-  color: #C1A98C;
-  font-family: 'ThirstyRoughRegTwo';
-  font-size: 20px;
-  padding-top: 6px;
-  margin: 0px;
-  top: 0px;
-  text-align: right; }
+.frase {
+  padding-top: 55px;
+  margin-right: 78px; }
+  .frase h4 {
+    color: #C1A98C;
+    font-family: 'ThirstyRoughRegTwo';
+    font-size: 20px;
+    padding-top: 6px;
+    margin: 0px;
+    top: 0px;
+    text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
