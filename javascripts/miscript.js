@@ -20,12 +20,23 @@ $(function() {
 $(document).ready(function(){
   $(window).scroll(function(){
     var prueba = $(this).scrollTop();
-    $("#carmen").text(prueba);
-    if (prueba > 50) {
-      $(".navbar-default").addClass("navegacion");
+    
+    if (prueba > 100) {
+      $(".menubar").addClass("navegacion");
+      $(".mostrar-modal").addClass("navegacion");
     }
-      else if (prueba < 50) {
-      $(".navbar-default").removeClass("navegacion");
+      else if (prueba < 100) {
+      $(".menubar").removeClass("navegacion");
+      $(".mostrar-modal").removeClass("navegacion");
     }
+  });
+
+  $('.mostrar-modal').click(function(){
+    $('.mostrar-modal').hide();
+    $('.cerrar-modal').show(500);
+  });
+  $('.cerrar-modal').click(function(){
+    $('.mostrar-modal').show(600);
+    $('.cerrar-modal').hide(400);
   });
 });
