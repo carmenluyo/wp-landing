@@ -5571,7 +5571,8 @@ button.close {
 
 .line {
   border-bottom: 2px solid black;
-  margin: 5%; }
+  margin: 6%;
+  padding-bottom: 2%; }
 
 /* FONDO */
 .bg {
@@ -5640,8 +5641,7 @@ button.close {
   display: none; }
 
 .banner {
-  padding-top: 5%;
-  height: 100%; }
+  padding-top: 5%; }
 
 /* Text Right */
 .color-white {
