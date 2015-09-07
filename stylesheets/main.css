@@ -5762,7 +5762,7 @@ html.svg .img-svg {
   display: block; }
 
 /*  RESPONSIVE MENU */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 889px) {
   .menubar-responsive {
     display: block; }
 
@@ -5782,7 +5782,7 @@ html.svg .img-svg {
 
   #modal ul {
     width: 100%;
-    height: 70%;
+    height: 80%;
     position: absolute;
     top: 0;
     left: 0;
@@ -5791,11 +5791,12 @@ html.svg .img-svg {
     margin: auto;
     font-size: 1.5em;
     text-align: center;
-    list-style: none; }
+    list-style: none;
+    padding: 0px; }
 
   #modal ul li a {
     display: block;
-    padding: 1em 0;
+    padding: 2% 0;
     font-family: 'veneer_tworegular';
     color: #fff; }
 
@@ -5859,10 +5860,11 @@ html.svg .img-svg {
 
 .menubar ul {
   width: auto;
-  margin: 0 auto;
+  margin: 0 20%;
   padding: 0;
   list-style: none;
-  display: table; }
+  display: table;
+  float: left; }
 
 .menubar ul li {
   float: none;
@@ -5880,5 +5882,15 @@ html.svg .img-svg {
 /* MENU SECTION 2 */
 .menu {
   text-align: center; }
+
+@media screen and (max-width: 1084px) and (min-width: 1013px) {
+  .menubar ul {
+    margin: 0 15%; } }
+@media screen and (max-width: 1014px) and (min-width: 968px) {
+  .menubar ul {
+    margin: 0 10%; } }
+@media screen and (max-width: 1014px) and (min-width: 886px) {
+  .menubar ul {
+    margin: 0 3%; } }
 
 /*# sourceMappingURL=main.css.map */

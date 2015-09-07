@@ -40,3 +40,10 @@ $(document).ready(function(){
     $('.cerrar-modal').hide(400);
   });
 });
+
+
+
+
+$('#menubar-responsive li a').click(function(){
+$('#cerrar-modal').setAttribute('checked','checked');
+});

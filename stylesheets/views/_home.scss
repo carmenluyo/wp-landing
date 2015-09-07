@@ -310,7 +310,7 @@ html.svg {
 
 /*  RESPONSIVE MENU */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 889px) {
 
   .menubar-responsive{
     display: block;
@@ -319,92 +319,93 @@ html.svg {
     display: none;
   }
 
-
   #modal {
-  background: rgba(0, 0, 0, .7);
-  color: #fff;
-  position: fixed;
-  top: -100vh;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  transition: all .5s;
-  z-index: 1;
-}
-#modal ul {
-  width: 100%;
-  height: 70%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  font-size: 1.5em;
-  text-align: center;
-  list-style: none;
-}
-#modal ul li a{
-  display: block;
-  padding: 1em 0;
-  font-family: 'veneer_tworegular';
-  color: #fff;
-}
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all .5s;
+    z-index: 1;
+  }
+  #modal ul {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+  }
 
-#mostrar-modal {
-  display: none;
-}
- #mostrar-modal + label {
-  position: fixed;
-  left: 0;
-  top: 0;
-  display: block;
-  margin: 0;
-  color: #fff;
-  padding: 1em 1em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-#mostrar-modal + label:hover {
-  
-}
-#mostrar-modal:checked ~ #modal {
-  top: 0;
-  z-index: 9999999;
-}
-#mostrar-modal:checked {
-  display: none;
-}
-#mostrar-modal:checked ~ #cerrar-modal + label {
-  display: block;
-}
+  #modal ul li a{
+    display: block;
+    padding: 2% 0;
+    font-family: 'veneer_tworegular';
+    color: #fff;
+  }
 
-#cerrar-modal {
-  display: none;
-}
-#cerrar-modal + label {
-  position: fixed;
-  top: 1em;
+  #mostrar-modal {
+    display: none;
+  }
+   #mostrar-modal + label {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    margin: 0;
+    color: #fff;
+    padding: 1em 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  #mostrar-modal + label:hover {
+    
+  }
+  #mostrar-modal:checked ~ #modal {
+    top: 0;
+    z-index: 9999999;
+  }
+  #mostrar-modal:checked {
+    display: none;
+  }
+  #mostrar-modal:checked ~ #cerrar-modal + label {
+    display: block;
+  }
 
-  left: 1em;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  border-radius: 50%;
-  display: none;
-  transition: all .5s;
-  z-index: 999999999999;
-}
-#cerrar-modal:checked ~ #modal {
-  top: -100vh;
-}
-#cerrar-modal:checked + label {
-  /*display: none;*/
-}
+  #cerrar-modal {
+    display: none;
+  }
+  #cerrar-modal + label {
+    position: fixed;
+    top: 1em;
+
+    left: 1em;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all .5s;
+    z-index: 999999999999;
+  }
+  #cerrar-modal:checked ~ #modal {
+    top: -100vh;
+  }
+  #cerrar-modal:checked + label {
+    /*display: none;*/
+  }
 
 }
 
@@ -420,10 +421,11 @@ html.svg {
 }
 .menubar ul{
   width: auto;
-  margin: 0 auto;
+  margin: 0 20%;
   padding: 0;
   list-style: none;
   display: table;
+  float: left;
 }
 .menubar ul li{
   float: none;
@@ -444,4 +446,30 @@ html.svg {
 .menu{
   text-align: center;
 }
+
+
+
+
+ @media screen and (max-width: 1084px) and (min-width: 1013px){
+    .menubar{
+    ul{
+      margin: 0 15%;
+    }
+  }
+ }
+ @media screen and (max-width: 1014px) and (min-width: 968px){
+    .menubar{
+    ul{
+      margin: 0 10%;
+    }
+  }
+ }
+
+@media screen and (max-width: 1014px) and (min-width: 886px){
+    .menubar{
+    ul{
+      margin: 0 3%;
+    }
+  }
+ }
 
