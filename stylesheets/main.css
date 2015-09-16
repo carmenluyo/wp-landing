@@ -5762,7 +5762,7 @@ html.svg .img-svg {
   display: block; }
 
 /*  RESPONSIVE MENU */
-@media screen and (max-width: 889px) {
+@media screen and (max-width: 990px) {
   .menubar-responsive {
     display: block; }
 
@@ -5884,15 +5884,12 @@ html.svg .img-svg {
 .menu {
   text-align: center; }
 
-@media screen and (max-width: 1084px) and (min-width: 1013px) {
+@media screen and (max-width: 1336px) and (min-width: 991px) {
   .menubar ul {
-    margin: 0 15%; } }
-@media screen and (max-width: 1014px) and (min-width: 968px) {
-  .menubar ul {
-    margin: 0 10%; } }
-@media screen and (max-width: 1014px) and (min-width: 886px) {
-  .menubar ul {
-    margin: 0 3%; } }
+    margin: 0 5%; }
+
+  .menubar ul li {
+    margin: 0 0.4em; } }
 #top-menu li.active a {
   border-bottom: 3px solid white; }
 
