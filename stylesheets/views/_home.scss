@@ -473,3 +473,16 @@ html.svg {
   }
  }
 
+#top-menu li.active a {
+    border-bottom: 3px solid white;
+}
+
+
+
+
+#top-menu a {
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    text-decoration: none;
+}

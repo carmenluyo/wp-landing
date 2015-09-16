@@ -5892,5 +5892,13 @@ html.svg .img-svg {
 @media screen and (max-width: 1014px) and (min-width: 886px) {
   .menubar ul {
     margin: 0 3%; } }
+#top-menu li.active a {
+  border-bottom: 3px solid white; }
+
+#top-menu a {
+  -webkit-transition: .5s all ease-out;
+  -moz-transition: .5s all ease-out;
+  transition: .5s all ease-out;
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
