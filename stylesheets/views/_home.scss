@@ -26,13 +26,12 @@
 
 }
 @font-face {
-    font-family: 'veneer_tworegular';
-    src: url('../fonts/yellow_design_studio_-_veneertwo-webfont.eot');
-    src: url('../fonts/yellow_design_studio_-_veneertwo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/yellow_design_studio_-_veneertwo-webfont.woff2') format('woff2'),
-         url('../fonts/yellow_design_studio_-_veneertwo-webfont.woff') format('woff'),
-         url('../fonts/yellow_design_studio_-_veneertwo-webfont.ttf') format('truetype'),
-         url('../fonts/yellow_design_studio_-_veneertwo-webfont.svg#veneer_tworegular') format('svg');
+    font-family: 'housebrokenclean-webfont';
+    src: url('../fonts/housebrokenclean-webfont.eot');
+    src: url('../fonts/housebrokenclean-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/housebrokenclean-webfont.woff2') format('woff2'),
+         url('../fonts/housebrokenclean-webfont.woff') format('woff'),
+         url('../fonts/housebrokenclean-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -166,7 +165,7 @@
 .color-white {
     color: white;
     font: 400 45px / 56px ThirstyRoughRegTwo;
-    font-family:'veneer_tworegular';
+    font-family:'housebrokenclean-webfont';
     line-height: 1;
 }
 .color-cream {
@@ -185,7 +184,7 @@
     color: #ffffff;
     font: 400 60.2px / 36px VeneerTwo;
     margin-top: 5px;
-    font-family: 'veneer_tworegular';
+    font-family: 'housebrokenclean-webfont';
 
 }
 .text-right-white-small {
@@ -348,7 +347,7 @@ html.svg {
   #modal ul li a{
     display: block;
     padding: 2% 0;
-    font-family: 'veneer_tworegular';
+    font-family: 'housebrokenclean-webfont';
     color: #fff;
   }
 
@@ -439,6 +438,7 @@ html.svg {
 }
 .menubar ul li a{
   color: white !important;
+  font-family: 'housebrokenclean-webfont';
 }
 
 /* MENU SECTION 2 */
