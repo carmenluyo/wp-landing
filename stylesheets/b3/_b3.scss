@@ -23,38 +23,38 @@
 
 // Components
 @import
-	"component-animations",
+"component-animations",
 	"dropdowns",
 	"button-groups",
-	"input-groups",
-	"navs",
+ 	"input-groups",
+	 "navs",
 	"glyphicons",
-	"navbar",
-	// "breadcrumbs",
-	// "pagination",
-	"pager",
-	"labels",
-	"badges",
-	// "jumbotron",
-	"thumbnails",
-	"alerts",
-	"progress-bars",
+	 "navbar",
+	"breadcrumbs",
+ 	"pagination",
+ 	"pager",
+ 	"labels",
+ 	"badges",
+ 	"jumbotron",
+ 	"thumbnails",
+ 	"alerts",
+ 	"progress-bars",
 	"media",
-	"list-group",
-	"panels",
+ 	"list-group",
+ 	"panels",
 	"wells",
-	"close";
+ 	"close";
 
 // Components w/ JavaScript
-@import 
-"modals",
-"tooltip",
-"popovers",
-"carousel";
+ @import 
+ "modals",
+ "tooltip",
+ "popovers",
+ "carousel";
 
 
 // Utility classes
 @import 
-	"utilities",
-	"responsive-embed",
-	"responsive-utilities";
+"utilities",
+ "responsive-embed",
+"responsive-utilities";
