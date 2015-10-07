@@ -5559,8 +5559,11 @@ button.close {
 .margin-left-10 {
   margin-left: 10px; }
 
-.subtitulo {
-  color: black; }
+.titulo {
+  color: #C1A98C;
+  font-family: 'ThirstyRoughRegTwo';
+  font-size: 50px;
+  padding-top: 4%; }
 
 .paddg-left_paddg-right_10 {
   padding-left: 10%;
@@ -5574,9 +5577,25 @@ button.close {
   margin: 6%;
   padding-bottom: 2%; }
 
+.subtitulo {
+  font-family: 'housebrokenclean-webfont';
+  font-size: 25px; }
+
+.pdd_btt_5 {
+  padding-bottom: 5%; }
+
+.pdd_btt_3 {
+  padding-bottom: 3%; }
+
+.pdd_top_3 {
+  padding-top: 3%; }
+
+.marg_top_3 {
+  margin-top: 3%; }
+
 /* FONDO */
 .bg {
-  background-image: url("../img/bg-1.jpg");
+  background-image: url("../img/slide1.jpg");
   width: 100%;
   height: 100%;
   display: relative;
@@ -5641,7 +5660,9 @@ button.close {
   display: none; }
 
 .banner {
-  padding-top: 5%; }
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 /* Text Right */
 .color-white {
@@ -5649,6 +5670,8 @@ button.close {
   font: 400 45px / 56px ThirstyRoughRegTwo;
   font-family: 'housebrokenclean-webfont';
   line-height: 1; }
+  .color-white span {
+    font-size: 35px; }
 
 .color-cream {
   color: #c1a98c;
@@ -5665,7 +5688,7 @@ button.close {
   color: #ffffff;
   font: 400 60.2px / 36px VeneerTwo;
   margin-top: 5px;
-  font-family: 'housebrokenclean-webfont'; }
+  font-family: 'ThirstyRoughRegTwo'; }
 
 .text-right-white-small {
   color: #ffffff;
@@ -5702,16 +5725,17 @@ button.close {
   color: white; }
 
 #mc_embed_signup {
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 47%; }
 
 input {
   width: 65%; }
 
 input.email {
-  color: #c1a98c;
-  -webkit-text-fill-color: #c1a98c;
+  -webkit-text-fill-color: #7B665F;
   padding-right: 45px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  background-color: #E8D8BF; }
 
 /*text left */
 .text-top {
@@ -5898,5 +5922,161 @@ html.svg .img-svg {
   -moz-transition: .5s all ease-out;
   transition: .5s all ease-out;
   text-decoration: none; }
+
+/* section bg menu */
+.section_menu {
+  background-color: #C1A98C;
+  text-align: center; }
+
+.menu_bg {
+  background-image: url(../img/slide4.jpg);
+  height: 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table; }
+
+.content_menu {
+  color: #C1A98C;
+  font-size: 25px;
+  margin: 15px 20%;
+  font-weight: bold; }
+
+.custon-salads {
+  font-family: 'housebrokenclean-webfont';
+  font-size: 50px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding-top: 1%;
+  margin-bottom: 4%; }
+
+.espacio {
+  padding-top: 5%; }
+
+.story_bg {
+  background-image: url(../img/slide1.jpg);
+  height: 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  background-position: center center; }
+
+.vision {
+  background-color: #E8D8BF; }
+
+.subt_story {
+  color: #7B665F;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'housebrokenclean-webfont';
+  padding-top: 2%; }
+
+.section_story {
+  text-align: center; }
+
+.story_reco {
+  background-color: #DCC6A0; }
+
+.logo {
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.text_story {
+  color: #7B665F;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 13%; }
+
+.text2_story {
+  padding-top: 2%;
+  font-size: 20px;
+  display: inline-block; }
+
+.nokid {
+  display: inline-block;
+  font-family: 'ThirstyRoughRegTwo'; }
+
+.banner_logo {
+  background-color: #E8D8BF;
+  padding-top: 3%; }
+
+.footer {
+  background-image: url(../img/bg_footer.png);
+  width: 100%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  background-position: center center; }
+
+.banner_text {
+  font-family: 'ThirstyRoughRegTwo';
+  color: #7B665F;
+  font-size: 25px;
+  display: inline-block;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
+.banner_text_2 {
+  font-family: 'ThirstyRoughRegTwo';
+  color: #7B665F;
+  font-size: 35px;
+  display: inline-block; }
+
+.banner_home {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 2%; }
+
+/* section nutrition */
+.nutrition_bg {
+  background-image: url(../img/slide3.jpg);
+  height: 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table; }
+
+.section_nutrition {
+  background-color: #C1A98C;
+  text-align: center; }
+
+/* section contact */
+.contact_bg {
+  background-image: url(../img/slide8.jpg);
+  height: 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table; }
+
+.section_contact {
+  background-color: #C1A98C;
+  text-align: center; }
+
+.cuadrado {
+  border: 1px solid;
+  width: 22%;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 3%;
+  margin-bottom: 3%; }
+
+.email {
+  font-family: 'ThirstyRoughRegTwo';
+  color: #7B665F;
+  font-size: 25px; }
+
+@media screen and (max-width: 1050px) and (min-width: 300px) {
+  .text-number-white {
+    font-size: 44px; }
+
+  .footer {
+    height: 50%; }
+
+  .story_foote img, .banner_home img, .banner_logo img {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
