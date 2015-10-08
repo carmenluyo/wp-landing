@@ -5579,7 +5579,8 @@ button.close {
 
 .subtitulo {
   font-family: 'housebrokenclean-webfont';
-  font-size: 25px; }
+  font-size: 25px;
+  letter-spacing: 2px; }
 
 .pdd_btt_5 {
   padding-bottom: 5%; }
@@ -5735,7 +5736,8 @@ input.email {
   -webkit-text-fill-color: #7B665F;
   padding-right: 45px;
   padding-left: 10px;
-  background-color: #E8D8BF; }
+  background-color: #E8D8BF;
+  font-size: 15px !important; }
 
 /*text left */
 .text-top {
@@ -5925,8 +5927,9 @@ html.svg .img-svg {
 
 /* section bg menu */
 .section_menu {
-  background-color: #C1A98C;
-  text-align: center; }
+  background-color: #E8D8BF;
+  text-align: center;
+  color: #7B665F; }
 
 .menu_bg {
   background-image: url(../img/slide4.jpg);
@@ -5963,7 +5966,8 @@ html.svg .img-svg {
   background-position: center center; }
 
 .vision {
-  background-color: #E8D8BF; }
+  background-color: #E8D8BF;
+  color: #7B665F; }
 
 .subt_story {
   color: #7B665F;
@@ -5992,7 +5996,8 @@ html.svg .img-svg {
 .text2_story {
   padding-top: 2%;
   font-size: 20px;
-  display: inline-block; }
+  display: inline-block;
+  color: #7B665F; }
 
 .nokid {
   display: inline-block;
@@ -6000,7 +6005,8 @@ html.svg .img-svg {
 
 .banner_logo {
   background-color: #E8D8BF;
-  padding-top: 3%; }
+  padding-top: 3%;
+  color: #7B665F; }
 
 .footer {
   background-image: url(../img/bg_footer.png);
@@ -6040,7 +6046,7 @@ html.svg .img-svg {
   display: table; }
 
 .section_nutrition {
-  background-color: #C1A98C;
+  background-color: #E8D8BF;
   text-align: center; }
 
 /* section contact */
@@ -6053,7 +6059,7 @@ html.svg .img-svg {
   display: table; }
 
 .section_contact {
-  background-color: #C1A98C;
+  background-color: #E8D8BF;
   text-align: center; }
 
 .cuadrado {

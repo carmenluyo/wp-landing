@@ -80,6 +80,7 @@
 .subtitulo{
       font-family: 'housebrokenclean-webfont';
     font-size: 25px;
+        letter-spacing: 2px;
 }
 
 .pdd_btt_5{
@@ -267,6 +268,7 @@ input.email {
     padding-right: 45px;
     padding-left: 10px;
     background-color: #E8D8BF;
+    font-size: 15px !important;
 }
 
 /*text left */
@@ -510,8 +512,9 @@ html.svg {
 /* section bg menu */
 
 .section_menu{
-  background-color: #C1A98C;
+  background-color: #E8D8BF;
   text-align: center;
+      color: #7B665F;
 }
 
 .menu_bg{
@@ -553,6 +556,7 @@ html.svg {
 }
 .vision {
   background-color: #E8D8BF;
+      color: #7B665F;
 }
 .subt_story{
     color: #7B665F;
@@ -585,6 +589,7 @@ html.svg {
   padding-top: 2%;
   font-size: 20px;
   display: inline-block;
+  color: #7B665F;
 }
 .nokid{
   display: inline-block;
@@ -593,6 +598,7 @@ html.svg {
 .banner_logo{
   background-color: #E8D8BF;
   padding-top: 3%;
+  color: #7B665F;
 }
 .footer{
   background-image: url(../img/bg_footer.png);
@@ -635,7 +641,7 @@ html.svg {
   display: table;
 }
 .section_nutrition {
-  background-color: #C1A98C;
+  background-color: #E8D8BF;
   text-align: center;
 }
 
@@ -649,7 +655,7 @@ html.svg {
   display: table;
 }
 .section_contact{
-  background-color: #C1A98C;
+  background-color: #E8D8BF;
   text-align: center;
 }
 
