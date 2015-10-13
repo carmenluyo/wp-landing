@@ -5565,6 +5565,9 @@ body {
 .marg_top_3 {
   margin-top: 3%; }
 
+.marg_none {
+  margin: 0px !important; }
+
 .paddg-left_paddg-right_10 {
   padding-left: 10%;
   padding-right: 10%; }
@@ -5573,7 +5576,7 @@ body {
   padding-bottom: 5%; }
 
 .titulo {
-  color: #C1A98C;
+  color: #E8D8BF;
   font-family: 'ThirstyRoughRegTwo';
   font-size: 50px;
   padding-top: 4%; }
@@ -5645,10 +5648,21 @@ body {
     top: 0px;
     text-align: right; }
 
+.logo-menu {
+  display: inline-block;
+  position: absolute; }
+  .logo-menu img {
+    padding: 32px;
+    margin-top: -45px; }
+  .logo-menu .logo-hidden {
+    visibility: hidden; }
+
 /* MENU - FIXED*/
 .navegacion {
   background-color: rgba(0, 0, 0, 0.79);
   z-index: 10000000000; }
+  .navegacion .logo-hidden {
+    visibility: visible; }
 
 /*NAVBAR - MENU*/
 .menubar {
@@ -5713,7 +5727,7 @@ body {
 .text-number-white {
   font: 400 60.2px / 36px VeneerTwo;
   margin-top: 5px;
-  font-family: 'ThirstyRoughRegTwo'; }
+  font-family: 'housebrokenclean-webfont'; }
 
 .text-right-white-small {
   color: #ffffff;
@@ -5729,7 +5743,7 @@ body {
 
 /*suscibete */
 .email {
-  height: 50px;
+  height: 36px;
   text-align: center;
   font-size: 16px;
   font-family: 'ThirstyRoughRegTwo'; }
@@ -5750,8 +5764,9 @@ body {
   color: white; }
 
 #mc_embed_signup {
-  margin-top: 20px;
-  width: 47%; }
+  width: 47%;
+  margin-top: 7%;
+  float: left; }
 
 input {
   width: 65%; }
@@ -5761,7 +5776,8 @@ input.email {
   padding-right: 45px;
   padding-left: 10px;
   background-color: #E8D8BF;
-  font-size: 15px !important; }
+  font-size: 15px !important;
+  border: none; }
 
 /*text left */
 .text-top {
@@ -5820,7 +5836,7 @@ html.svg .img-svg {
   background-image: url(../img/slide4.jpg); }
 
 .content_menu {
-  color: #C1A98C;
+  color: #E8D8BF;
   font-size: 25px;
   margin: 15px 20%;
   font-weight: bold; }
@@ -5901,7 +5917,10 @@ html.svg .img-svg {
 .banner_home {
   text-align: center;
   padding-top: 6%;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  float: right; }
+  .banner_home img {
+    width: 69%; }
 
 /* section nutrition */
 .nutrition_bg {
@@ -5921,7 +5940,7 @@ html.svg .img-svg {
 
 .cuadrado {
   border: 1px solid;
-  width: 22%;
+  width: 30%;
   margin: 0 auto;
   margin-top: 3%;
   padding: 3%;
@@ -6033,5 +6052,39 @@ html.svg .img-svg {
 
   .menubar ul li {
     margin: 0 0.4em; } }
+.section_contact .socialMedia i {
+  background-color: #857266;
+  color: #E8D8BF;
+  width: 45px;
+  text-align: center;
+  padding: 9px;
+  border-radius: 50%;
+  margin-top: 20px;
+  font-size: 25px;
+  margin: 3px; }
+
+.redes-footer {
+  font-family: 'ThirstyRoughRegTwo';
+  padding: 2%; }
+
+.fontzise-18 {
+  font-size: 18px; }
+
+.frase-banner {
+  display: inline-block;
+  color: #E8D8BF;
+  font-size: 15px !important;
+  font-family: 'ThirstyRoughRegTwo';
+  margin-top: 8%;
+  margin-right: 13%;
+  margin-left: -10%; }
+
+.frase-banner_2 {
+  position: absolute;
+  margin-top: 7%;
+  color: #E8D8BF;
+  font-size: 15px !important;
+  font-family: 'ThirstyRoughRegTwo';
+  margin-left: 12%; }
 
 /*# sourceMappingURL=main.css.map */
