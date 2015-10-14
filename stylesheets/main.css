@@ -5653,7 +5653,8 @@ body {
   position: absolute; }
   .logo-menu img {
     padding: 32px;
-    margin-top: -45px; }
+    margin-top: -45px;
+    margin-left: 1px; }
   .logo-menu .logo-hidden {
     visibility: hidden; }
 
@@ -5960,7 +5961,7 @@ html.svg .img-svg {
   .story_footer img, .banner_home img, .banner_logo img {
     width: 100%; } }
 /*  RESPONSIVE MENU */
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1100px) {
   .menubar-responsive {
     display: block; }
 
@@ -5994,7 +5995,7 @@ html.svg .img-svg {
 
   #modal ul li a {
     display: block;
-    padding: 2% 0;
+    padding: 1% 0;
     font-family: 'housebrokenclean-webfont';
     color: #fff; }
 
@@ -6048,7 +6049,7 @@ html.svg .img-svg {
     /*display: none;*/ } }
 @media screen and (max-width: 1336px) and (min-width: 991px) {
   .menubar ul {
-    margin: 0 5%; }
+    margin: 0 17%; }
 
   .menubar ul li {
     margin: 0 0.4em; } }
@@ -6086,5 +6087,8 @@ html.svg .img-svg {
   font-size: 15px !important;
   font-family: 'ThirstyRoughRegTwo';
   margin-left: 12%; }
+
+.logo-hidden .hidden-xs {
+  margin-left: -20px; }
 
 /*# sourceMappingURL=main.css.map */
