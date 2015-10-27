@@ -232,6 +232,9 @@ body{
 .menubar-responsive{
   display: none;
 }
+#top-menu{
+  margin-left: 4%;
+}
 #top-menu li.active a {
   opacity: 0.8;
   transition: all 0.7s ease 0s;
@@ -538,7 +541,7 @@ html.svg {
 
 /*  RESPONSIVE MENU */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1201px) {
 
   .menubar-responsive{
     display: block;
@@ -636,11 +639,6 @@ html.svg {
   }
 }
 @media screen and (max-width: 1336px) and (min-width: 991px){
-    .menubar{
-      ul{
-        margin: 0 17%;
-      }
-    }
     .menubar ul li {
       margin: 0 0.4em;
     }
