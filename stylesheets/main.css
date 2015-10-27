@@ -5779,7 +5779,7 @@ body {
   cursor: pointer; }
 
 .fa-arrow-right {
-  font-size: 10px;
+  font-size: 10px !important;
   background-color: #7B665F;
   border-radius: 50%;
   padding: 6px;
