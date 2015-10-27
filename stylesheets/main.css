@@ -5533,6 +5533,9 @@ button.close {
 body {
   color: #7B665F; }
 
+a:hover, a:focus {
+  text-decoration: none; }
+
 /* tIPOGRAFIA*/
 @font-face {
   font-family: 'ThirstyRoughRegTwo';
@@ -6109,5 +6112,14 @@ html.svg .img-svg {
 
 .logo-hidden .hidden-xs {
   margin-left: -50px; }
+
+.direction_contact {
+  font-size: 40px;
+  padding: 5%;
+  text-decoration: none;
+  color: #C1A98C;
+  font-family: 'ThirstyRoughRegTwo'; }
+  .direction_contact:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
