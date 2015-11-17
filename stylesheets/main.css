@@ -5531,7 +5531,8 @@ button.close {
   margin-right: 0; }
 
 body {
-  color: #7B665F; }
+  color: #7B665F;
+  position: relative; }
 
 a:hover, a:focus {
   text-decoration: none; }
@@ -5591,7 +5592,7 @@ a:hover, a:focus {
   color: #E8D8BF;
   font-family: 'ThirstyRoughRegTwo';
   font-size: 50px;
-  padding-top: 4%; }
+  padding-top: 7%; }
 
 .subtitulo {
   font-family: 'housebrokenclean-webfont';
@@ -5605,7 +5606,6 @@ a:hover, a:focus {
 
 .footer_botton {
   bottom: 0px;
-  /*position: absolute;*/
   width: 100%; }
 
 /* FONDO */
@@ -5670,7 +5670,8 @@ a:hover, a:focus {
     float: left; }
   .logo-menu img {
     padding-left: 33px;
-    height: 55px; }
+    height: 45px;
+    padding-bottom: 10px; }
   .logo-menu .logo-hidden {
     visibility: hidden;
     padding-left: 35px; }
@@ -5694,7 +5695,8 @@ a:hover, a:focus {
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  padding-top: 20px; }
+  padding-top: 0px;
+  border-radius: 0px; }
   .menubar ul {
     width: auto;
     margin: 0px 0px;
@@ -5710,10 +5712,13 @@ a:hover, a:focus {
       padding-top: 10px;
       padding-bottom: 0px;
       line-height: 20px;
-      margin: 0 .8em; }
+      margin: 0 0.5em; }
       .menubar ul li a {
         color: white !important;
         font-family: 'housebrokenclean-webfont'; }
+
+.order_color a:hover {
+  color: #E8D8BF !important; }
 
 .menubar-responsive {
   display: none; }
@@ -5864,7 +5869,9 @@ html.svg .img-svg {
   color: #E8D8BF;
   font-size: 25px;
   margin: 15px 20%;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-bottom: 10%;
+  padding-top: 3%; }
 
 .custon-salads {
   font-family: 'housebrokenclean-webfont';
@@ -5901,7 +5908,7 @@ html.svg .img-svg {
   padding-bottom: 3%; }
 
 .text_story {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   margin: 0 13%; }
 
@@ -5926,18 +5933,6 @@ html.svg .img-svg {
   background-size: cover;
   display: table;
   background-position: center center; }
-
-.banner_text {
-  font-family: 'ThirstyRoughRegTwo';
-  font-size: 25px;
-  display: inline-block;
-  padding-top: 2%;
-  padding-bottom: 2%; }
-
-.banner_text_2 {
-  font-family: 'ThirstyRoughRegTwo';
-  font-size: 35px;
-  display: inline-block; }
 
 .banner_home {
   padding-top: 6%;
@@ -6109,6 +6104,10 @@ html.svg .img-svg {
   font-size: 15px !important;
   font-family: 'ThirstyRoughRegTwo';
   margin-left: 12%; }
+
+.banner_text {
+  padding-top: 5%;
+  padding-bottom: 3%; }
 
 .logo-hidden .hidden-xs {
   margin-left: -50px; }

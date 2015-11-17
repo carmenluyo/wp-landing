@@ -56,7 +56,7 @@ var lastId,
     scrollItems = menuItems.map(function(){
       var item = $($(this).attr("href"));
       if (item.length) { return item; }
-    });
+});
 
 
 
@@ -82,6 +82,5 @@ $(window).scroll(function(){
          .end().filter("[href=#"+id+"]").parent().addClass("active");
    }                   
 });
-
 
 
