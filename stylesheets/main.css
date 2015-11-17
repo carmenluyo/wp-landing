@@ -5726,7 +5726,7 @@ a:hover, a:focus {
 #top-menu {
   margin-left: 4%; }
 
-#top-menu li.active a {
+li.active a {
   opacity: 0.8;
   transition: all 0.7s ease 0s; }
 
