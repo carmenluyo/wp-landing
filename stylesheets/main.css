@@ -5605,7 +5605,7 @@ a:hover, a:focus {
 
 .footer_botton {
   bottom: 0px;
-  position: absolute;
+  /*position: absolute;*/
   width: 100%; }
 
 /* FONDO */
