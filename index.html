@@ -488,6 +488,12 @@
 
 	  	<script src="javascripts/miscript.js"></script>
 		<script src="javascripts/modernizr.custom.64483.js"></script>
+		<script>
+		  div#modal.find('a').on('click', function() {
+		    $('.menubar').toggleClass('.cerrar-modal');
+		    nav.toggleClass('.mostrar-modal');
+		  });
+		</script>
 	</body>
 </html>	
 
